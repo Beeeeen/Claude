@@ -1,0 +1,23 @@
+# Sensitive
+.credentials.json
+
+# Ephemeral / runtime
+cache/
+sessions/
+debug/
+backups/
+file-history/
+shell-snapshots/
+statsig/
+telemetry/
+ide/
+plugins/
+plans/
+todos/
+mcp-needs-auth-cache.json
+stats-cache.json
+
+# Conversation history
+**/*.jsonl
+projects/*/*.jsonl
+projects/*/subagents/
